@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "title": "hello_snowplow",
+    "description": "A very simple custom context",
+    "properties": {
+      "arg1": {
+        "type": "string"
+      },
+      "arg2": {
+        "type": "string"
+      },
+      "arg3": {
+        "type": "string"
+      },
+      "arg4": {
+        "type": "string"
+      }
+    }
+}
