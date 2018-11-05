@@ -1,6 +1,6 @@
 {
     "type": "object",
-    "title": "hello_snowplow,
+    "title": "hello_snowplow",
     "description": "A very simple custom context",
     "properties": {
       "arg1": {
