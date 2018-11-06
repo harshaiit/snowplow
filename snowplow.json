@@ -1,0 +1,55 @@
+{
+    "type": "object",
+    "title": "hello_android",
+    "description": "A very simple custom context",
+    "properties": {
+      "arg1": {
+        "type": "string"
+      },
+      "arg2": {
+        "type": "string"
+      },
+      "arg3": {
+        "type": "string"
+      },
+      "arg4": {
+        "type": "string"
+      },
+      "arg5": {
+        "type": "string"
+      },
+      "arg6": {
+        "type": "string"
+      },
+      "arg7": {
+        "type": "string"
+      },
+      "arg8": {
+        "type": "string"
+      },
+      "arg9": {
+        "type": "string"
+      },
+      "arg10": {
+        "type": "string"
+      },
+      "arg11": {
+        "type": "string"
+      },
+      "arg12": {
+        "type": "string"
+      },
+      "arg13": {
+        "type": "string"
+      },
+      "arg14": {
+        "type": "string"
+      },
+      "arg15": {
+        "type": "string"
+      },
+      "arg16": {
+        "type": "string"
+      }
+    }
+}
