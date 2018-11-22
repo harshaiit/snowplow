@@ -1,0 +1,21 @@
+{
+	"type": "object",
+	"title": "hello_unstructured",
+	"description": "A very simple custom context",
+	"properties": {
+		"arg1": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"loc": {
+						"type": "string"
+					},
+					"toll": {
+						"type": ["string", "null"]
+					}
+				}
+			}
+		}
+	}
+}
