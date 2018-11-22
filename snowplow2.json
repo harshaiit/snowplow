@@ -4,7 +4,7 @@
 	"description": "A very simple custom context",
 	"properties": {
 		"arg1": {
-			"type": "array",
+			"type": "object",
 			"items": {
 				"type": "object",
 				"properties": {
