@@ -1,6 +1,6 @@
 {
 	"type": "object",
-	"title": "hello_unstructured",
+	"title": "hello_unstruct",
 	"description": "A very simple custom context",
 	"properties": {
 		"arg1": {
