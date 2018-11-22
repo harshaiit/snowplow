@@ -5,15 +5,12 @@
 	"properties": {
 		"arg2": {
 			"type": "object",
-			"items": {
-				"type": "object",
-				"properties": {
-					"loc": {
-						"type": "string"
-					},
-					"toll": {
-						"type": ["string", "null"]
-					}
+			"properties": {
+				"loc": {
+					"type": "string"
+				},
+				"toll": {
+					"type": ["string", "null"]
 				}
 			}
 		}
