@@ -3,7 +3,7 @@
 	"title": "hello_unstruct",
 	"description": "A very simple custom context",
 	"properties": {
-		"arg1": {
+		"arg2": {
 			"type": "object",
 			"items": {
 				"type": "object",
