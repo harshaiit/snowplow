@@ -9,9 +9,8 @@
 				"type": "object",
 				"properties": {
 					"index": {
-						"type": "integer",
-						"minimum": 1,
-						"maximum": 200
+						"type": "string"
+						
 					},
 					"value": {
 						"type": ["string", "null"],
