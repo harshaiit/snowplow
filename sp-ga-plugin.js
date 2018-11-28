@@ -32,7 +32,7 @@ function SpGaPlugin(tracker, config) {
       originalSendHitTask(model);
       var request = new XMLHttpRequest();
       console.log(path);
-      request.open('GET', path, true);
+      request.open('GET', path);
       request.setRequestHeader("Content-type", "text/plain; charset=UTF-8")
       request.send(payload);
     });
