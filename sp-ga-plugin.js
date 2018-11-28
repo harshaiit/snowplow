@@ -31,7 +31,7 @@ function SpGaPlugin(tracker, config) {
       var payload = model.get('hitPayload');
       originalSendHitTask(model);
       var request = new XMLHttpRequest();
-      print path
+      console.log(path);
       request.open('GET', path, true);
       request.setRequestHeader("Content-type", "text/plain; charset=UTF-8")
       request.send(payload);
