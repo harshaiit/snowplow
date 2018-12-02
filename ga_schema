@@ -1,0 +1,90 @@
+{
+  "self": {
+    "vendor": "snowplow",
+    "name": "GAschema",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "properties": {
+    "hit_level_custom_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "index": {
+            "type": "string"
+
+          },
+          "value": {
+            "type": ["string", "null"],
+            "maxLength": 150
+          }
+        }
+      }
+    },
+    "session_level_custom_dimensions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "index": {
+            "type": "string"
+
+          },
+          "value": {
+            "type": ["string", "null"],
+            "maxLength": 150
+          }
+        }
+      }
+    },
+    "hit_level_custom_metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "index": {
+            "type": "string"
+
+          },
+          "value": {
+            "type": ["string", "null"],
+            "maxLength": 150
+          }
+        }
+      }
+    },
+    "session_level_custom_metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "index": {
+            "type": "string"
+
+          },
+          "value": {
+            "type": ["string", "null"],
+            "maxLength": 150
+          }
+        }
+      }
+    },
+    "event_tracking_data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "index": {
+            "type": "string"
+
+          },
+          "value": {
+            "type": ["string", "null"],
+            "maxLength": 150
+          }
+        }
+      }
+    }
+  }
+}
